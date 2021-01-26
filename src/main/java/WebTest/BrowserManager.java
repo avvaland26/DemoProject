@@ -7,8 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserManager extends Util{
     public void openBrowser(){
-       LoadProp loadProp = new LoadProp();
-       String BrowserName = loadProp.getProperty("chrome");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
