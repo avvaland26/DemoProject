@@ -26,7 +26,7 @@ public class HomePage extends Util {
                 driver.switchTo().window(ChildWindow);
                 driver.findElement(By.id("inputEmail")).sendKeys("Anjali9+\"+System.currentTimeMillis()+\"@gmail.com");
                 driver.findElement(By.xpath("//input[@id=\"inputPassword\"]")).sendKeys("Kavya2018");
-                driver.findElement(By.xpath("//div[@class=\"recaptcha-checkbox-border\"]")).click();
+               // driver.findElement(By.xpath("//div[@class=\"recaptcha-checkbox-border\"]")).click();
 
                 // Closing the Child Window.
                 driver.close();
