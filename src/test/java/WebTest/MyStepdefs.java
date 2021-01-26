@@ -32,6 +32,7 @@ public class MyStepdefs {
     @Then("user open login page successfully")
     public void userOpenLoginPageSuccessfully()
     {
-      loginPage.userEntersLoginDetails();
+       // loginPage.verifyUserOnLoginPage();
+        //loginPage.userEntersLoginDetails();
     }
 }
